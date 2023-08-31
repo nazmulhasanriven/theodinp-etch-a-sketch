@@ -1,0 +1,85 @@
+body {
+    background-color: #333;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color: antiquewhite;
+}
+
+.intro {
+    color: aqua;
+    font-size: 4rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.row {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+button {
+    font-size: medium;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 5px solid white;
+}
+
+.options button {
+    margin: 20px;
+    padding: 10px 40px;
+    font-size: large;
+}
+
+.black {
+    color: aliceblue;
+    background-color: black;
+}
+.black:hover {
+    color: black;
+    background-color: whitesmoke;
+    border: 5px solid rgb(192, 8, 248);
+    scale: 1.1;
+    transition: scale .3s;
+}
+
+.rainbow {
+    color: aqua;
+    background-color: rgb(47, 69, 80);
+}
+.rainbow:hover {
+    color: black;
+    background-color: rgb(255, 4, 180);
+    border: 5px solid rgb(8, 192, 248);
+    scale: 1.1;
+    transition: scale .3s;
+}
+
+.clear {
+   border: 5px solid rgb(255, 8, 234);
+}
+.clear:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 4, 180);
+    border: 5px solid rgb(8, 192, 248);
+    scale: 1.1;
+    transition: scale .3s;
+}
+
+.select:hover {
+    color: wheat;
+    background-color: black;
+    border: 5px solid rgb(8, 192, 248);
+    scale: 1.1;
+    transition: scale .3s;
+}
+
+.board {
+    margin: 20px 5px;
+    width: 60vh;
+    height: 60vh;
+    border: 5px solid aqua;
+}
