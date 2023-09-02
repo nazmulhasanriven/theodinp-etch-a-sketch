@@ -39,11 +39,11 @@ function divColor() {
 
 function customSize() {
     let size = prompt("How many pixels do you want?");
-    if (size == "" || size <1 || size>100) {
-        alert("Please provide a number between 1 - 100")
-    } else {
+    if (size>1 && size<101) {
         reset();
         createBoard(size);
+    } else {
+        alert("Please provide a number between 2 - 100");
     }
 }
 
