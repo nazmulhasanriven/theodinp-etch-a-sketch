@@ -2,7 +2,7 @@ let color = 'black';
 let click = false;
 
 document.addEventListener("DOMContentLoaded", function() {
-    createBoard(16);
+    createBoard(64);
     document.querySelector('#board').addEventListener("click", function(){
         click = !click;
     })
