@@ -15,16 +15,16 @@
             <h3>Select the size of the Sketchpad ==></h3>
         </div>
         <div class="col">
-            <button class="select">Select</button>
+            <button class="select" onclick="customSize()">Select</button>
         </div>
     </div>
-    <div class="board">
+    <div id="board" class="board">
 
     </div>
     <div class="options">
-        <button class="black">Black</button>
-        <button class="rainbow">Rainbow</button>
-        <button class="clear">Clear</button>
+        <button class="black" onclick="theColor('black')">Black</button>
+        <button class="rainbow" onclick="theColor('random')">Rainbow</button>
+        <button class="clear" onclick="reset()">Clear</button>
     </div>
     <script src="main.js"></script>
 </body>
